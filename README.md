@@ -3,7 +3,9 @@
 ## Challenge #1 - Play against a single opponent
 
     #both players clone the repository
-    git clone https://bitbucket.pearson.com/users/vdudlmi/repos/tictactoe/browse
+    git clone ssh://git@bitbucket.pearson.com/~vdudlmi/tictactoe.git 
+    or
+    git clone https://bitbucket.pearson.com/scm/~vdudlmi/tictactoe.git
 
     #change directories to the root of the repository
     cd tictactoe
