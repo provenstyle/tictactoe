@@ -60,8 +60,6 @@
 
     #Player 1 delete your branch from the server
     git push origin :game1
-    or
-    git branch -dr origin/game1
 
 *** Challenge Complete ***
 
