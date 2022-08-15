@@ -65,21 +65,21 @@
 
 ## Challenge #2 - a simple tournament
 
-    #A judge will create a tournament branch from the main branch and push it to the server
+    #A referee will create a tournament branch from the main branch and push it to the server
     git checkout -b tournament1
     git push --set-upstream origin tournament1
     
-    #each pair will play best 2 out of 3 games of tic tac toe as in Challenge #1 with the following modifications
+    #each pair will play 2 games of tic tac toe as in Challenge #1 with the following modifications
 
-    1. Create a seperate branch for each game.
-      git checkout -b michaelCraigGame1
-    2. Copy _gameTemplate.txt for each game and name it <player1><player2>game<gameid>.txt
-      git add .
-      git commit -m "starting new game"
-      git push --set-upstream origin michaelCraigGame1
-    3. Play your game as in Challenge #1
-    4. Fill out who won the game
-    5. Pull request your completed game into the tournament1 branch before starting the next game
+    1. Checkout the tournament branch
+    2. Create a seperate branch for each game.
+    3. Copy _gameTemplate.txt for each game and name it <player1><player2>game<gameid>.txt
+    4. Play your game as in Challenge #1
+    5. Fill out who won the game
+    6. Pull request your completed game into the tournament1 branch 
+    7. The referee will review and approve your game
+    8. Merge your game branch with the delete branch checkbox checked. 
+    9. Start your next game. 
       
 
 ## Challenge #3 - moderate your own tournament
