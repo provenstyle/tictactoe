@@ -1,0 +1,8 @@
+Winners:
+   <playername here>
+
+Loosers:
+   <playername here>
+
+Cat:
+   <team name here>
