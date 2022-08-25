@@ -1,7 +1,7 @@
 Winners:
    <playername here>
 
-Loosers:
+Losers:
    <playername here>
 
 Cat:
