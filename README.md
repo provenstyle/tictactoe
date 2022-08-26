@@ -59,7 +59,6 @@
     #Player 1 delete your branch from the server
     git push origin :game1
 
-*** Challenge Complete ***
 
 ## Challenge #2 - a simple tournament
 
@@ -101,6 +100,7 @@
         3. If the cat wins add your team name to the cat list
     5. Start your next game. 
 
+
 ## Challenge #4 - Push Champion  
 
     This is an individual challenge.
@@ -109,9 +109,9 @@
 
     1. Checkout the tournament branch
     2. Open the _pushChampion.txt file
-    3. Add your name to highest place not taken.  Commit. Push
-    4. If you get a merge conflict on your line resolve it and push again
-    5. The first person to push there name at that place claims it and must take the next place
+    3. Add your name to highest place not taken. Commit. Push.
+    4. If you get a merge conflict on your line resolve it taking the next available place and push again.
+    5. The first person to successfully push their name to the server at a place claims it and you must take the next available place when you resolve your conflict.
 
 
 
