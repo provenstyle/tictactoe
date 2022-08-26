@@ -101,7 +101,17 @@
         3. If the cat wins add your team name to the cat list
     5. Start your next game. 
 
+## Challenge #4 - Push Champion  
 
+    This is an individual challenge.
+
+    #A referee will create a tournament branch from the main branch and push it to the server
+
+    1. Checkout the tournament branch
+    2. Open the _pushChampion.txt file
+    3. Add your name to highest place not taken.  Commit. Push
+    4. If you get a merge conflict on your line resolve it and push again
+    5. The first person to push there name at that place claims it and must take the next place
 
 
 
