@@ -100,8 +100,27 @@
         3. If the cat wins add your team name to the cat list
     5. Start your next game. 
 
+## Challenge #4 - rebase tournament 
 
-## Challenge #4 - Push Champion  
+    This challenge is the same as Challenge #3 with a focus on rebasing
+    
+    During step 4 when you add your results to the _tournamanetResults.txt file on the tournament1 branch and push your changes:
+        1. git fetch --all --prune
+        2. git checkout tournament1
+        3. git pull --rebase
+        4. Fix and merge conflicts
+        5. The winners adds their name to the winner list
+        6. The loser adds their name to the loser list
+        7. If the cat wins add your team name to the cat list
+        8. Push your changes to the server
+        9. If you get and merge conflicts go to step 3 and repeat
+
+    There should be no merge commits.
+    Another way to say this is each commit only has one parent.
+    Another way to say this is when I look at git lg or gitk there should be no merge lines in the graph
+
+
+## Challenge #5 - Push Champion  
 
     This is an individual challenge.
 
