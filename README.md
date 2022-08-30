@@ -115,6 +115,11 @@
         8. Push your changes to the server
         9. If you get and merge conflicts go to step 3 and repeat
 
+        Rebase commands you may need:
+        git pull   --rebase
+        git rebase --continue
+        git rebase --abort
+
     There should be no merge commits.
     Another way to say this is each commit only has one parent.
     Another way to say this is when I look at git lg or gitk there should be no merge lines in the graph
